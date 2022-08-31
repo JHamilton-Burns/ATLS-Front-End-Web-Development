@@ -6,4 +6,4 @@ Jessie's class repository for ATLAS 5630 Front-end Web Development.
 
 ### Class Portal
 
-• [Process Milestone #1]
+• [Process Milestone #1](https://github.com/JHamilton-Burns/ATLS-Front-End-Web-Development/tree/main/process)
