@@ -28,10 +28,10 @@ MOBILE: Considering how the site may look in mobile, I also provided some simpli
 
 
 
-COMPONENTS, COLORS & ARCHITECTURE: To keep the card designs consistant, I created master components and applied autolayout to all text elements to assist when adjusting page sizing. To keep the design of the pages clean and easy on the eyes, I used coolors.co and opted for lighter tones for the background with pops of color for tags. 
+ARCHITECTURE, COMPONENTS, & COLORS: To keep the card designs consistant, I created master components and applied autolayout to all text elements to assist when adjusting page sizing. To keep the design of the pages clean and easy on the eyes, I used coolors.co and opted for lighter tones for the background with pops of color for tags. 
+
+![class-portal-architecture](https://user-images.githubusercontent.com/89480750/187938537-e3d9fdd3-d0c7-4104-84c9-3fa2ebf8c877.png)
 
 ![class-portal-master-components](https://user-images.githubusercontent.com/89480750/187801687-9d81aa42-ebc9-4cb1-9fae-4890da39a16f.png)
 
 ![class-portal-colors](https://user-images.githubusercontent.com/89480750/187801701-0cb4764d-35a1-435f-a3c4-f122392f0194.png)
-
-![class-portal-architecture](https://user-images.githubusercontent.com/89480750/187938537-e3d9fdd3-d0c7-4104-84c9-3fa2ebf8c877.png)
