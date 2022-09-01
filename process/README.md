@@ -18,7 +18,7 @@ LABS & PROJECTS: The wireframe for the labs and projects pages feature a similar
 
 ![class-portal-labs](https://user-images.githubusercontent.com/89480750/187801550-c02b5f3b-2d86-4414-bd79-65cf3d5af4fd.png)
 
-![class-portal-projects](https://user-images.githubusercontent.com/89480750/187801568-9b0264f6-d1e4-42d0-8cfa-25b07fd060b9.png)
+![class-portal-projects](https://user-images.githubusercontent.com/89480750/187929348-d9472d40-37de-407d-85d1-d9fa8688cce2.png)
 
 
 
