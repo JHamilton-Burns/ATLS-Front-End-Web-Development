@@ -142,15 +142,3 @@ a {
   align-items: left;
   background-color: white;
 }
-
-/* .tag {
-margin: auto;
-display: flex;
-padding: .2rem;
-flex-flow: row wrap;
-width: fit-content;
-justify-content: flex-start;
-text-align: left;
-align-items: left;
-background-color: #FFDD99; 
-} */
