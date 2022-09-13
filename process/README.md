@@ -45,6 +45,7 @@ ARCHITECTURE, COMPONENTS, & COLORS: To keep the card designs consistant, I creat
 PORTAL LINK: https://web-development-neon.vercel.app
 
 EXTERNAL LINKS: 
+
 • Coding help -> https://www.w3schools.com/html/default.asp
 
 • Website deployment -> https://vercel.com/dashboard
