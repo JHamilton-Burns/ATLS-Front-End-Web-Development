@@ -44,9 +44,10 @@ ARCHITECTURE, COMPONENTS, & COLORS: To keep the card designs consistant, I creat
 
 PORTAL LINK: https://web-development-neon.vercel.app
 
-EXTERNAL LINKS: Coding help -> https://www.w3schools.com/html/default.asp
-                Website deployment -> https://vercel.com/dashboard
-                Peter Github -> https://github.com/peterrosenthal/ctd-fwd
+EXTERNAL LINKS: 
+• Coding help -> https://www.w3schools.com/html/default.asp
+• Website deployment -> https://vercel.com/dashboard
+• Peter's Github -> https://github.com/peterrosenthal/ctd-fwd
 
 INITIAL GOAL: I had this dream of achieving the MVP on one go and boy was I in for a treat. This process taught me a ton about my coding stamina and brought me back down to reality. Although, I had moments of despair and considered trashing the entire project numerous times, I'd like to give credit to the W3School Tryit Editor and the hundreds of forums online that helped with troubleshooting. Despite my dramatic hurdles with coding, I will say I am endlessly grateful to have experience with Webflow. I've spent many nights pulling out my hair over flex boxes and imagine it'll continue well into the future, but the experience truly helped me keep my cool during this process. Anyways, my initial goal was to capture the architecture of the wireframe I created in Milestone 1 and bring the simple card layout I designed into reality. 
 
