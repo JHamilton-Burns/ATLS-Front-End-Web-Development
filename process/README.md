@@ -1,5 +1,5 @@
 # Class Portal Process
-### Table of Contents
+## Table of Contents
 • [Process Milestone #1](#milestone-1)
 • [Process Milestone #2](#milestone-2)
 
