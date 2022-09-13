@@ -1,0 +1,52 @@
+body {
+    background-color: #b69434;
+}
+
+button {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 50px;
+    background-color: rgb(80, 17, 17);
+    color: white;   
+    border-radius: 8rem;     
+    outline: none;
+    border: none;
+    width: 500px;        
+    padding: 20px;
+ }
+ 
+.container {
+    position: center;
+    width: 100%;
+}
+  
+.image {
+    display: block;
+    height: auto;
+    width: 90%;
+}
+
+.overlay { 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10rem;
+    right: 10rem;
+    height: 100%;
+    width: 90%;
+    opacity: 0%;
+    transition: .5s ease;
+}
+  
+.container:hover .overlay {
+    opacity: 3;
+}
+/* Learned overlay process here: https://www.w3schools.com/css/css3_images.asp   */
+
+#horse {
+    position: absolute;
+    pointer-events: none; 
+}
