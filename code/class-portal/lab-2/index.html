@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Benny Turns 3!</title>
+    <link rel="stylesheet" href="main.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <img src="Images/dogBirthday.jpeg" alt="Dog celebrating a birthday" class="image">
+        <header>
+            <h1 style="line-height:1.7em;">RSVP Benny Turns 3!</h1>
+            <h2>When: Friday, September 23rd at 4:00pm MT 
+            </h2>
+            <h2>Location: CU Boulder ATLAS 109
+            </h2>
+          </header> 
+    </div>
+    <form class="my-form" id=theForm action="Sumbitted/submitted.html" method="get">
+      <div class="form-element">
+        <legend style="line-height:1.7em;" for="fname-input">First Name:</legend>
+        <input type="text" placeholder="enter first name" id="fname-input">
+      </div>
+
+      <div class="form-element">
+        <input type="text" placeholder="enter last name" id="lname-input">
+      </div>
+
+      <fieldset class="form-element" id="radio">
+        <legend class="form-legend" style="line-height:1.7em;">RSVP</legend>
+
+        <input type="radio" id="yes" name="attend">
+        <label for="yes">Yes</label>
+
+        <input type="radio" id="no" name="attend">
+        <label for="no">No</label>
+
+      </fieldset class="form-element">
+
+      <div class="form-element">
+        <legend style="line-height:1.7em;" for="number-input"># Attendees:</legend>
+        <input type="number" placeholder="#" id="number-input">
+      </div>
+
+      <div class="form-element">
+        <legend style="line-height:1.7em;" for="email-input">Email:</legend>
+        <input type="email" placeholder="enter email" id="email-input">
+      </div>
+
+      </div>
+      <fieldset class="form-element" id="checkbox">
+        <legend style="line-height:1.7em;">Select all games you'd like to play:</legend>
+
+        <input type="checkbox" id="benny-trivia" name="games">
+        <label for="benny-trivia">Benny Trivia</label>
+
+        <input type="checkbox" id="treasure-hunt" name="games">
+        <label for="treasure-hunt">Treasure Hunt</label>
+
+        <input type="checkbox" id="tug-of-war" name="games">
+        <label for="tug-of-war">Tug of War</label>
+
+        <input type="checkbox" id="marco-polo" name="games">
+        <label for="marco-polo">Marco Polo</label>
+
+        <input type="checkbox" id="fetch" name="games">
+        <label for="fetch">Fetch</label>
+        
+        <input type="checkbox" id="obstacle-course" name="games">
+        <label for="obstacle-course">Obstacle Course</label>
+      </fieldset>
+
+      <fieldset class="form-element" id="radio">
+        <legend style="line-height:1.7em;">Select your food preference:</legend>
+
+        <input type="radio" id="italian" name="food">
+        <label for="italian">Italian</label>
+
+        <input type="radio" id="american" name="food">
+        <label for="american">American</label>
+
+        <input type="radio" id="mexican" name="food">
+        <label for="mexican">Mexican</label>
+
+        <input type="radio" id="indian" name="food">
+        <label for="indian">Indian</label>
+      </fieldset class="form-element">
+    
+      
+    <button type="submit" form="theForm" value="Submit">Submit</button>
+    <!-- learned about buttons here: https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_button_form -->
+    </form>
+  </body>
+</html>
