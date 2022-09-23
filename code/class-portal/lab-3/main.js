@@ -14,9 +14,10 @@ function quiz() {
 	
 	//get total number of questions
 	var totalQuestion = quizQuestions.length;
+
 		
 	for(count = 1; count <= totalQuestion; count++){
-        randomNumber= Math.floor(Math.random() * 3) + 0;
+        randomNumber = Math.floor(Math.random() * 3);
 		question = quizQuestions[randomNumber];
         console.log(question);
 		answer = prompt(question);
