@@ -4,20 +4,19 @@ function quiz() {
 	let num;
 	let question;
     let answer;
-    var randomNumber;
-	const quizQuestions = [
+	var quizQuestions = [
 	  'How many moons does Earth have?',
 	  'How many moons does Saturn have?',
 	  'How many moons does Venus have?'];
 
-	const quizAnswers = [1, 82, 0];
+	var quizAnswers = [1, 82, 0];
 	
-	//get total number of questions
-	var totalQuestion = quizQuestions.length;
+ 	//get total number of questions
+	const totalQuestion = quizQuestions.length;
 
-		
-	for(count = 1; count <= totalQuestion; count++){
-        randomNumber = Math.floor(Math.random() * 3);
+    let randomNumber = Math.floor(Math.random() * 3);
+
+	for(randomNumber = 0; randomNumber < totalQuestion; randomNumber++){
 		question = quizQuestions[randomNumber];
         console.log(question);
 		answer = prompt(question);
@@ -31,7 +30,7 @@ function quiz() {
 		}
 
         num++;
-        if (num == totalQuestion) {
+        if (num === totalQuestion) {
                 num = 0;
             }
     }
