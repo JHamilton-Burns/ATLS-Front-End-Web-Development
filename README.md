@@ -18,7 +18,7 @@ Jessie's class repository for ATLAS 5630 Front-end Web Development. ***NOTE FOR 
 
 • [Code](https://github.com/JHamilton-Burns/ATLS-Front-End-Web-Development/tree/main/code/class-portal/lab-2)
 
-### Lab 2
+### Lab 3
 
 • [Code](https://github.com/JHamilton-Burns/ATLS-Front-End-Web-Development/tree/main/code/class-portal/lab-3)
 
