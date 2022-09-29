@@ -14,7 +14,7 @@ I have many friends that don’t understand the difference between the tournamen
 
 As I wireframed this project, I realized there were many features i’d like to include. So few Americans understand the intricacies of the grand slam tournaments and I’d really like to synthesize the primary differences in a digestible way. Therefore, on each page, I’d like to pull out the the easiest facts to get the gist of the differences and why they mean so much to the game of tennis. I also wanted to emphasize the outfit component of tennis and how trends widely differ by brand, tournament, and year. This is an exciting part of the game and in a sense creates a new and refreshing vibe from year-to-year.
 
-![MacBook Pro 14_ - 1](https://user-images.githubusercontent.com/89480750/192920407-e1cc1b82-2338-4a81-a993-97db20c371cb.png)
+![MacBook Pro 14_ - 1-2](https://user-images.githubusercontent.com/89480750/192922563-d46d519a-2695-42e1-84fe-253600158e5a.png)
 
 ### JAVASCRIPT LIBRARY: 
 
