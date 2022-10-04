@@ -1,0 +1,29 @@
+body {
+    background-color: #b6ac81;
+    text-align: center;
+}
+
+
+.image {
+    padding-top: 3rem;
+}
+
+
+.flex-container {
+    margin:auto;
+    display: flex;
+    flex-flow: column wrap;
+    height: fit-content;
+    width: fit-content;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding: 2rem;
+    background-color: #02006f;
+    box-shadow: 0px 1px 20px #a0a0a0;
+  }
+
+  #spaceBetween { 
+    padding-bottom: 3rem;
+  }
