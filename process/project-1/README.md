@@ -21,6 +21,7 @@ As I wireframed this project, I realized there were many features i’d like to 
 Through this project, I’m looking forward to learning d3.js to boost the data visualizaition effects of my project. I’ve never used it, but believe that after reading through the intro, it would be very useful for the parallax-esque visuals I’d like to achieve. I am a bit slower at coding, but I do love the challenge of learning a new library and testing the waters. I have high expectations for this project, and hope that i’m not biting off more than I can chew. Regardless, I’m gonna give it my all!
 
 
+# Project 1 WIP Check-in
 ## Milestone 2
 ### INITIAL TAKEAWAYS: 
 
