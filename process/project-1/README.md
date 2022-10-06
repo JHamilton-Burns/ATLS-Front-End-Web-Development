@@ -40,6 +40,8 @@ In addition, I began researching “cartesian fisheye distortion galleries” in
 
 Some challenges that I need to work through include centering the header, creating content for the grand slams that best summarizes their differences for a non-tennis audience and pulling together fashion images for each tournament. I am cautiously optomistic as I move on to tackle these challenges. I believe I have a long ways to go as far as cleaning up the code goes. I’m hoping to have ample time to get everything in working order by the deadline. 
 
+Here is the current site: https://web-development-neon.vercel.app/project-1/index.html
+
 Here are a handful of screenshots displying the current state of the site: 
 
 <img width="1787" alt="Screen Shot 2022-10-06 at 8 34 49 AM" src="https://user-images.githubusercontent.com/89480750/194342698-5e891e8e-f401-455b-8153-485b929a6a8e.png">
