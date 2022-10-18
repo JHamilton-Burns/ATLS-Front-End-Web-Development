@@ -2,6 +2,8 @@ body, html {
     padding: 0;
     margin: 0;
     background-color: white;
+    /* overflow: hidden; */
+    min-height: 100vh;
   }
   
   .dropdown {
@@ -29,11 +31,10 @@ body, html {
     color: #FFFFFF;
     background-color: #282B2C;
   }
-
   /* https://blog.hubspot.com/website/html-dropdown */
 
   header {
-    position: absolute;
+    position: sticky;
     z-index: 1;
     top: 0;
     left: 0;
@@ -45,7 +46,6 @@ body, html {
     margin: 0;
     margin-right: 5rem;
     padding: 1rem;
-    /* padding-right: 5rem; */
     color: white;
     background-color: #282B2C;
     box-shadow: 0px 1px 20px #a0a0a0;
@@ -63,7 +63,7 @@ body, html {
   #B {
     text-decoration: none;
     color: #282B2C;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 2.5rem;
     margin: 0;
   }
@@ -72,10 +72,9 @@ body, html {
     text-decoration: none;
     color: #282B2C;
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin: 0;
   }
-
 
   h3 {
     text-decoration: none;
@@ -90,7 +89,7 @@ body, html {
     text-decoration: none;
     color: white;
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 0;
   }
 
@@ -112,9 +111,6 @@ body, html {
     height: 20rem;
     width: 20rem;
     color: #282B2C;
-    /* flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: .5rem; */
     background-color: white;
     justify-content: left;
     align-items: left;
@@ -142,14 +138,6 @@ body, html {
     flex-flow: column;
     height: 15rem;
     width: 50rem;
-    /* border-radius: .5rem;
-    color: white; */
-    /* background-color: #282B2C; */
-    /* box-shadow: 0px 1px 20px #a0a0a0; */
-    /* padding-top: 2rem;
-    padding-left: .5rem;
-    padding-right: 2rem;
-    padding-bottom: 5rem; */
   }
 
   .line {
@@ -167,81 +155,38 @@ body, html {
     flex-flow: column;
     justify-content: center;
     text-align: center;
-    /* justify-content: space-around;
-    text-align: space-around; */
   }
 
-
   .spaceBetween { 
-    /* padding-bottom: 4rem; */
     height: 4rem;
   }
 
   .orange {
     background-color:#B06835;
-    height: 50rem;
+    height: 58rem;
     width: 100%;
     padding-bottom: 3rem;
   }
 
   .blue {
     background-color:#1e8FD5;
-    height: 50rem;
+    height: 58rem;
     width: 100%;
     padding-bottom: 3rem;
   }
 
   .yellow {
     background-color:#FFD400;
-    height: 50rem;
+    height: 58rem;
     width: 100%;
     padding-bottom: 3rem;
   }
 
   .green {
     background-color:#01713D;
-    height: 50rem;
+    height: 58rem;
     width: 100%;
     padding-bottom: 3rem;
-  }
-
-  .pageCard3 {
-    margin: auto;
-    display: flex;
-    flex-flow: column;
-    padding-top: 1rem;
-    height: 20rem;
-    width: 20rem;
-    color: #282B2C;
-    /* flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: .5rem; */
-    /* background-color: white; */
-    justify-content: left;
-    align-items: left;
-  }
-
-  .pageCard4 {
-    margin: auto;
-    display: flex;
-    flex-flow: row;
-    height: 20rem;
-    width: 50rem;
-    border-radius: .5rem;
-    color: #282B2C;
-    border-width: 5px;
-    /* border-color: #282B2C;
-    border-style: dotted; */
-    justify-content: right;
-    align-items:right;
-    padding: 1rem;
-  }
-
-  form {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-    align-items: center;
   }
   
   form button {
@@ -263,27 +208,232 @@ body, html {
     color: white;
   }
 
+  /* https://codepen.io/YousifW/pen/LKBxZX */
+  /* --------------Nike-------------------- */
+  .pageCard3 {
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    padding-right: 2rem;
+    height: 20rem;
+    width: 20rem;
+    color: #282B2C;
+    justify-content: left;
+    align-items: left;
+  }
 
+  .pageCard4 {
+    margin: auto;
+    display: flex;
+    flex-flow: row;
+    padding-top: 5rem;
+    height: 20rem;
+    width: 50rem;
+    justify-content: right;
+    align-items:right;
+    padding: 1rem;
+  }
 
-  #chart3 {
-    width: 960px;
-    height: 180px;
-    border: solid 1px #282B2C;
+  .items {
+    position: absolute;
+    top: 85%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+  }
+  
+  .items .item {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all 300ms ease-in-out;
+    z-index: -1;
+    opacity: 0;
+  }
+  
+  .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .item.active {
+    opacity: 1;
+    z-index: 99;
+    box-shadow: 0px 0px 105px -35px rgba(0, 0, 0, 0.75);
+  }
+  
+  .item.prev {
+    z-index: 2;
+    opacity: 0.25;
+    transform: translate(-125%, -50%);
+  }
+  
+  .item.next {
+    z-index: 2;
+    opacity: 0.25;
+    transform: translate(25%, -50%);
+  }
+  
+  .items .button-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 275px;
+    z-index: 100;
+  }
+  
+  .button-container .button {
+    color: #282B2C;
+    font-size: 32px;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.75;
+    transition: all 300ms ease-in-out;
+  }
+  
+  .button-container .button:hover {
+    opacity: 1;
+  }
+  
+  .button-container .button:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background-color: #dfff4f;
+    border-radius: 50%;
+    z-index: -99;
+  }
+  
+  .button-container .button:nth-child(1) {
+    float: left;
+  }
+  
+  .button-container .button:nth-child(2) {
+    float: right;
+  }
+
+/* --------------Adidas-------------------- */
+
+.pageCard5 {
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+  padding-right: 2rem;
+  height: 20rem;
+  width: 20rem;
+  color: #282B2C;
+  justify-content: left;
+  align-items: left;
 }
 
-.background {
-    fill: none;
-    pointer-events: all;
+.pageCard6 {
+  margin: auto;
+  display: flex;
+  flex-flow: row;
+  padding-top: 5rem;
+  height: 20rem;
+  width: 50rem;
+  justify-content: right;
+  align-items:right;
+  padding: 1rem;
 }
 
-#chart3 line {
-    shape-rendering: crispEdges;
-}
-
-#chart3 line {
-    fill: none;
-    stroke: #333;
-}
-
-
-    body { margin:0;position:fixed;top:0;right:0;bottom:0;left:0; }
+  .adidasItems {
+    position: absolute;
+    top: 135%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+  }
+  
+  .adidasItems .adidas {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all 300ms ease-in-out;
+    z-index: -1;
+    opacity: 0;
+  }
+  
+  .adidas img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .adidas.now {
+    opacity: 1;
+    z-index: 99;
+    box-shadow: 0px 0px 105px -35px rgba(0, 0, 0, 0.75);
+  }
+  
+  .adidas.back {
+    z-index: 2;
+    opacity: 0.25;
+    transform: translate(-125%, -50%);
+  }
+  
+  .adidas.then {
+    z-index: 2;
+    opacity: 0.25;
+    transform: translate(25%, -50%);
+  }
+  
+  .adidasItems .adidasButton-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 275px;
+    z-index: 100;
+  }
+  
+  .adidasButton-container .adidasButton {
+    color: #282B2C;
+    font-size: 32px;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.75;
+    transition: all 300ms ease-in-out;
+  }
+  
+  .adidasButton-container .adidasButton:hover {
+    opacity: 1;
+  }
+  
+  .adidasButton-container .adidasButton:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background-color: #dfff4f;
+    border-radius: 50%;
+    z-index: -99;
+  }
+  
+  .adidasButton-container .adidasButton:nth-child(1) {
+    float: left;
+  }
+  
+  .adidasButton-container .adidasButton:nth-child(2) {
+    float: right;
+  }

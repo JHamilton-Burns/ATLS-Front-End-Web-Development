@@ -2,8 +2,11 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <title>Tennis Grand Slam Fashion</title>
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script defer src="main.js"></script>
   </head>
   <body>
     <header>
@@ -24,203 +27,152 @@
         <div class="pageCard1">
             <div>
               <h2 id="B">French Open</h2> 
-              <p>(aka Roland Garros) was founded in 1891 and as of 2022, has taken place for 126 years. The French Open is the only grand slam played on clay courts which generates a slower paced game with higher ball bounces. The tournament takes place for 2 weeks each year in Paris, France.   </p>
+              <p>(aka Roland Garros) was founded in 1891 and as of 2022, has taken place for 126 years. The French Open is the only grand slam played on clay courts which generates a slower paced game with higher ball bounces. The tournament takes place for 2 weeks each year in Paris, France.</p>
           </div>
           <section class="spaceBetween"> </section>
         </div>
-
         <section class="spaceBetween"></section>
-
         <div class="pageCard2">
           <div class="line">
             <div class="imageText">
               <img src="French Images/roland-garros-logo.png" alt="Logo for Roland Garros" style ="width:100px; height:100px;">
               <h4>Logo</h4>
             </div>
-
             <div class="imageText">
               <img src="French Images/clay court .png" alt="Clay tennis court" style ="width:150px; height:100px; border-radius:10px;">
               <h4>Court</h4>
             </div>
-
             <div class="imageText">
               <h4>Singles Prize</h4>
               <h3>€2,200,000</h3>
             </div>
-
             <div class="imageText">
               <h4>Doubles Prize</h4>
               <h3>€580,000</h3>
             </div>
           </div>
-
           <div class="line">
             <div class="imageText">
               <img src="French Images/Group 4.png" alt="Roland Garros color pallette" style ="width:150px; height:100px;">
               <h4>Colors</h4>
             </div>
-
             <section class="spaceBetween"> </section>
-
             <div class="imageText">
               <img src="French Images/Trophy.png" alt="Roland Garros Trophies" style ="width:400px; height:100px;">
               <h4>Trophies</h4>
             </div>
           </div>
-
         </div>
     </div>
 
       <section class="orange"> 
+
         <div class=cardHolder>
+          
           <div class="pageCard3">
             <h2>Nike</h2> 
-            <p>A spectrum of attire worn by sponsored male and female players over the course of 3 years. In 2022, Nike sponsored the most players, giving way to tournaments filled with inevitable “swoosh vs. swoosh showdowns.”</p>
+            <p>In 2022, Nike sponsored the most players (roughly 70), giving way to tournaments filled with inevitable “swoosh vs. swoosh showdowns. Nike sponsors top tier stars like Naomi Osaka, Rafael Nadal, Nick Kyrgios and formerly, Serena Williams. Pictured is Nike's male and female attire curated for Roland Garros in 2020, 2021, and 2022.</p>
           </div>
-        
+          
           <div class="pageCard4">
-            <div class="line"></div>
-           
-              <script src="https://d3js.org/d3.v2.min.js"></script>
-            
-              <p id="chart3"></p>
+            <div class="items">
+              <div class="item active">
+                <img src="French Images/1.png">
+              </div>
+              <div class=" item next">
+                <img src="French Images/2.jpg">
+              </div>
+              <div class="item">
+                <img src="French Images/3.jpg">
+              </div>
+              <div class="item">
+                <img src="French Images/4.png">
+              </div>
+              <div class="item">
+                <img src="French Images/5.jpg">
+              </div>
+              <div class="item">
+                <img src="French Images/6.jpg">
+              </div>
+              <div class="item">
+                <img src="French Images/7.png">
+              </div>
+              <div class="item">
+                <img src="French Images/8.png">
+              </div>
+              <div class="item">
+                <img src="French Images/9.png">
+              </div>
+              <div class="item">
+                <img src="French Images/10.jpg">
+              </div>
+              <div class="item">
+                <img src="French Images/11.png">
+              </div>
+              <div class="item prev">
+                <img src="French Images/12.jpg">
+              </div>
+              <div class="button-container">
+                <div class="button"><i class="fa-solid fa-angle-left"></i></div>
+                <div class="button"><i class="fa-solid fa-angle-right"></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-              <script>
-                (function() {
-              d3.fisheye = {
-                scale: function(scaleType) {
-                  return d3_fisheye_scale(scaleType(), 3, 0);
-                },
-                circular: function() {
-                  var radius = 200,
-                      distortion = 2,
-                      k0,
-                      k1,
-                      focus = [0, 0];
-
-                  function fisheye(d) {
-                    var dx = d.x - focus[0],
-                        dy = d.y - focus[1],
-                        dd = Math.sqrt(dx * dx + dy * dy);
-                    if (!dd || dd >= radius) return {x: d.x, y: d.y, z: 1};
-                    var k = k0 * (1 - Math.exp(-dd * k1)) / dd * .75 + .25;
-                    return {x: focus[0] + dx * k, y: focus[1] + dy * k, z: Math.min(k, 10)};
-                  }
-
-                  function rescale() {
-                    k0 = Math.exp(distortion);
-                    k0 = k0 / (k0 - 1) * radius;
-                    k1 = distortion / radius;
-                    return fisheye;
-                  }
-
-                  fisheye.radius = function(_) {
-                    if (!arguments.length) return radius;
-                    radius = +_;
-                    return rescale();
-                  };
-
-                  fisheye.distortion = function(_) {
-                    if (!arguments.length) return distortion;
-                    distortion = +_;
-                    return rescale();
-                  };
-
-                  fisheye.focus = function(_) {
-                    if (!arguments.length) return focus;
-                    focus = _;
-                    return fisheye;
-                  };
-
-                  return rescale();
-                }
-              };
-
-              function d3_fisheye_scale(scale, d, a) {
-
-                function fisheye(_) {
-                  var x = scale(_),
-                      left = x < a,
-                      v,
-                      range = d3.extent(scale.range()),
-                      min = range[0],
-                      max = range[1],
-                      m = left ? a - min : max - a;
-                  if (m == 0) m = max - min;
-                  return (left ? -1 : 1) * m * (d + 1) / (d + (m / Math.abs(x - a))) + a;
-                }
-
-                fisheye.distortion = function(_) {
-                  if (!arguments.length) return d;
-                  d = +_;
-                  return fisheye;
-                };
-
-                fisheye.focus = function(_) {
-                  if (!arguments.length) return a;
-                  a = +_;
-                  return fisheye;
-                };
-
-                fisheye.copy = function() {
-                  return d3_fisheye_scale(scale.copy(), d, a);
-                };
-
-                fisheye.nice = scale.nice;
-                fisheye.ticks = scale.ticks;
-                fisheye.tickFormat = scale.tickFormat;
-                return d3.rebind(fisheye, scale, "domain", "range");
-              }
-            })();
-
-            (function chart3() {
-              console.clear()
-              var width = 960,
-                  height = 180,
-                  xSteps = d3.range(0, width, 16),
-                  ySteps = d3.range(0, height, 16);
-                  
-                  
-
-              var xFisheye = d3.fisheye.scale(d3.scale.identity).domain([0, width]).focus(0),
-                  yFisheye = d3.scale.linear().domain([0, height]);
-
-              var svg = d3.select("#chart3").append("svg")
-                  .attr("width", width)
-                  .attr("height", height)
-                .append("g")
-                  .attr("transform", "translate(-.5,-.5)");
-
-              svg.append("rect")
-                  .attr("class", "background")
-                  .attr("width", width)
-                  .attr("height", height);
-
-              var xLine = svg.selectAll(".x")
-                  .data(xSteps)
-                .enter().append("line")
-                  .attr("class", "x")
-                  .attr("y2", height);
-                
-              redraw();
-
-              svg.on("mousemove", function() {
-                var mouse = d3.mouse(this);
-                  
-                xFisheye.focus(mouse[0]);    
-                yFisheye(mouse[1]);
-                redraw();
-              });
-
-              function redraw() {
-                xLine.attr("x1", xFisheye).attr("x2", xFisheye);
-              }
-            })();
-
-  </script>
-      </div>
+        <div class=cardHolder>
+          
+          <div class="pageCard5">
+            <h2>Adidas</h2> 
+            <p>Although Adidas sponsors less players than Nike, they still receive quite a bit of recognition from their nearly 60 sponsored players. Big names like Dominic Thiem, Alexander Zverev, and Stefanos Tsisipas earn Adidas a spot at the top in tennis fashion. Pictured is Adidas's male and female attire curated for Roland Garros in 2020, 2021, and 2022.</p>
+          </div>
+          
+          <div class="pageCard6">
+            <div class="adidasItems">
+              <div class="adidas now">
+                <img src="French Images/13.png">
+              </div>
+              <div class="adidas then">
+                <img src="French Images/14.png">
+              </div>
+              <div class="adidas">
+                <img src="French Images/15.jpeg">
+              </div>
+              <div class="adidas">
+                <img src="French Images/16.png">
+              </div>
+              <div class="adidas">
+                <img src="French Images/17.jpeg">
+              </div>
+              <div class="adidas">
+                <img src="French Images/18.png">
+              </div>
+              <div class="adidas">
+                <img src="French Images/19.jpeg">
+              </div>
+              <div class="adidas">
+                <img src="French Images/20.jpeg">
+              </div>
+              <div class="adidas">
+                <img src="French Images/21.png">
+              </div>
+              <div class="adidas">
+                <img src="French Images/22.png">
+              </div>
+              <div class="adidas">
+                <img src="French Images/23.png">
+              </div>
+              <div class="adidas back">
+                <img src="French Images/24.jpeg">
+              </div>
+              <div class="adidasButton-container">
+                <div class="adidasButton"><i class="fa-solid fa-angle-left"></i></div>
+                <div class="adidasButton"><i class="fa-solid fa-angle-right"></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
-
     </main>
   </body>
 </html>

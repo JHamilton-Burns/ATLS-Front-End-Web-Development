@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <title>Tennis Grand Slam Fashion</title>
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script defer src="main.js"></script>
   </head>
   <body>
     <header>
@@ -24,7 +26,7 @@
         <div class="pageCard1">
             <div>
               <h2 id="B">U.S. Open</h2> 
-              <p>The US Open Tennis Championships is a hardcourt tennis tournament held annually in Queens, New York. Since 1987, the US Open has been chronologically the fourth and final Grand Slam tournament of the year. The other three, in chronological order, are the Australian Open, French Open and Wimbledon. The US Open starts on the last Monday of August and continues for two weeks, with the middle weekend coinciding with the US Labor Day holiday. The tournament is of one of the oldest tennis championships in the world, originally known as the U.S. National Championship, for which men's singles and men's doubles were first played in August 1881.</p>
+              <p>The US Open Tennis Championships is a hardcourt tennis tournament held annually in Queens, New York. Since 1987, the US Open has been chronologically the fourth and final Grand Slam tournament of the year. The other three, in chronological order, are the Australian Open, French Open and Wimbledon. The US Open starts on the last Monday of August and continues for two weeks, with the middle weekend coinciding with the US Labor Day holiday. The tournament is one of the oldest tennis championships in the world, originally known as the U.S. National Championship, for which men's singles and men's doubles were first played in August 1881.</p>
           </div>
           <section class="spaceBetween"> </section>
         </div>
@@ -73,153 +75,112 @@
 
       <section class="yellow"> 
         <div class=cardHolder>
+          
           <div class="pageCard3">
             <h2>Nike</h2> 
-            <p>A spectrum of attire worn by sponsored male and female players over the course of 3 years. In 2022, Nike sponsored the most players, giving way to tournaments filled with inevitable “swoosh vs. swoosh showdowns.”</p>
+            <p>In 2022, Nike sponsored the most players (roughly 70), giving way to tournaments filled with inevitable “swoosh vs. swoosh showdowns. Nike sponsors top tier stars like Naomi Osaka, Rafael Nadal, Nick Kyrgios and formerly, Serena Williams. Pictured is Nike's male and female attire curated for the US Open in 2020, 2021, and 2022.</p>
           </div>
-        
+          
           <div class="pageCard4">
-            <div class="line"></div>
+            <div class="items">
+              <div class="item active">
+                <img src="US Images/1.jpeg">
+              </div>
+              <div class=" item next">
+                <img src="US Images/2.jpeg">
+              </div>
+              <div class="item">
+                <img src="US Images/3.png">
+              </div>
+              <div class="item">
+                <img src="US Images/4.jpeg">
+              </div>
+              <div class="item">
+                <img src="US Images/5.jpeg">
+              </div>
+              <div class="item">
+                <img src="US Images/6.jpeg">
+              </div>
+              <div class="item">
+                <img src="US Images/7.png">
+              </div>
+              <div class="item">
+                <img src="US Images/8.jpeg">
+              </div>
+              <div class="item">
+                <img src="US Images/9.jpeg">
+              </div>
+              <div class="item">
+                <img src="US Images/10.jpeg">
+              </div>
+              <div class="item">
+                <img src="US Images/11.png">
+              </div>
+              <div class="item prev">
+                <img src="US Images/12.png">
+              </div>
+              <div class="button-container">
+                <div class="button"><i class="fa-solid fa-angle-left"></i></div>
+                <div class="button"><i class="fa-solid fa-angle-right"></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-            <script src="https://d3js.org/d3.v2.min.js"></script>
-            
-            <p id="chart3"></p>
+        <div class=cardHolder>
+          
+          <div class="pageCard5">
+            <h2>Adidas</h2> 
+            <p>Although Adidas sponsors less players than Nike, they still receive quite a bit of recognition from their nearly 60 sponsored players. Big names like Dominic Thiem, Alexander Zverev, and Stefanos Tsisipas earn Adidas a spot at the top in tennis fashion. Pictured is Adidas's male and female attire curated for the US Open in 2020, 2021, and 2022.</p>
+          </div>
+          
+          <div class="pageCard6">
+            <div class="adidasItems">
+              <div class="adidas now">
+                <img src="US Images/13.jpeg">
+              </div>
+              <div class="adidas then">
+                <img src="US Images/14.png">
+              </div>
+              <div class="adidas">
+                <img src="US Images/15.png">
+              </div>
+              <div class="adidas">
+                <img src="US Images/16.jpeg">
+              </div>
+              <div class="adidas">
+                <img src="US Images/17.jpeg">
+              </div>
+              <div class="adidas">
+                <img src="US Images/18.jpeg">
+              </div>
+              <div class="adidas">
+                <img src="US Images/19.jpeg">
+              </div>
+              <div class="adidas">
+                <img src="US Images/20.png">
+              </div>
+              <div class="adidas">
+                <img src="US Images/21.jpeg">
+              </div>
+              <div class="adidas">
+                <img src="US Images/22.jpeg">
+              </div>
+              <div class="adidas">
+                <img src="US Images/23.png">
+              </div>
+              <div class="adidas back">
+                <img src="US Images/24.jpeg">
+              </div>
+              <div class="adidasButton-container">
+                <div class="adidasButton"><i class="fa-solid fa-angle-left"></i></div>
+                <div class="adidasButton"><i class="fa-solid fa-angle-right"></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-            <script>
-              (function() {
-            d3.fisheye = {
-              scale: function(scaleType) {
-                return d3_fisheye_scale(scaleType(), 3, 0);
-              },
-              circular: function() {
-                var radius = 200,
-                    distortion = 2,
-                    k0,
-                    k1,
-                    focus = [0, 0];
-
-                function fisheye(d) {
-                  var dx = d.x - focus[0],
-                      dy = d.y - focus[1],
-                      dd = Math.sqrt(dx * dx + dy * dy);
-                  if (!dd || dd >= radius) return {x: d.x, y: d.y, z: 1};
-                  var k = k0 * (1 - Math.exp(-dd * k1)) / dd * .75 + .25;
-                  return {x: focus[0] + dx * k, y: focus[1] + dy * k, z: Math.min(k, 10)};
-                }
-
-                function rescale() {
-                  k0 = Math.exp(distortion);
-                  k0 = k0 / (k0 - 1) * radius;
-                  k1 = distortion / radius;
-                  return fisheye;
-                }
-
-                fisheye.radius = function(_) {
-                  if (!arguments.length) return radius;
-                  radius = +_;
-                  return rescale();
-                };
-
-                fisheye.distortion = function(_) {
-                  if (!arguments.length) return distortion;
-                  distortion = +_;
-                  return rescale();
-                };
-
-                fisheye.focus = function(_) {
-                  if (!arguments.length) return focus;
-                  focus = _;
-                  return fisheye;
-                };
-
-                return rescale();
-              }
-            };
-
-            function d3_fisheye_scale(scale, d, a) {
-
-              function fisheye(_) {
-                var x = scale(_),
-                    left = x < a,
-                    v,
-                    range = d3.extent(scale.range()),
-                    min = range[0],
-                    max = range[1],
-                    m = left ? a - min : max - a;
-                if (m == 0) m = max - min;
-                return (left ? -1 : 1) * m * (d + 1) / (d + (m / Math.abs(x - a))) + a;
-              }
-
-              fisheye.distortion = function(_) {
-                if (!arguments.length) return d;
-                d = +_;
-                return fisheye;
-              };
-
-              fisheye.focus = function(_) {
-                if (!arguments.length) return a;
-                a = +_;
-                return fisheye;
-              };
-
-              fisheye.copy = function() {
-                return d3_fisheye_scale(scale.copy(), d, a);
-              };
-
-              fisheye.nice = scale.nice;
-              fisheye.ticks = scale.ticks;
-              fisheye.tickFormat = scale.tickFormat;
-              return d3.rebind(fisheye, scale, "domain", "range");
-            }
-          })();
-
-          (function chart3() {
-            console.clear()
-            var width = 960,
-                height = 180,
-                xSteps = d3.range(0, width, 16),
-                ySteps = d3.range(0, height, 16);
-                
-                
-
-            var xFisheye = d3.fisheye.scale(d3.scale.identity).domain([0, width]).focus(0),
-                yFisheye = d3.scale.linear().domain([0, height]);
-
-            var svg = d3.select("#chart3").append("svg")
-                .attr("width", width)
-                .attr("height", height)
-              .append("g")
-                .attr("transform", "translate(-.5,-.5)");
-
-            svg.append("rect")
-                .attr("class", "background")
-                .attr("width", width)
-                .attr("height", height);
-
-            var xLine = svg.selectAll(".x")
-                .data(xSteps)
-              .enter().append("line")
-                .attr("class", "x")
-                .attr("y2", height);
-              
-            redraw();
-
-            svg.on("mousemove", function() {
-              var mouse = d3.mouse(this);
-                
-              xFisheye.focus(mouse[0]);    
-              yFisheye(mouse[1]);
-              redraw();
-            });
-
-            function redraw() {
-              xLine.attr("x1", xFisheye).attr("x2", xFisheye);
-            }
-          })();
-
-</script>
-    </div>
-    </section>
+      </section>
 
   </main>
 </body>
