@@ -236,7 +236,7 @@ body, html {
 
   .items {
     position: absolute;
-    top: 85%;
+    top: 77%;
     left: 65%;
     transform: translate(-50%, -50%);
     user-select: none;
@@ -351,7 +351,7 @@ body, html {
 
   .adidasItems {
     position: absolute;
-    top: 135%;
+    top: 125%;
     left: 65%;
     transform: translate(-50%, -50%);
     user-select: none;
