@@ -68,6 +68,11 @@ body, html {
     margin: 0;
   }
 
+  #W {
+    color: white;
+  }
+
+
   h2 {
     text-decoration: none;
     color: #282B2C;
@@ -204,10 +209,6 @@ body, html {
     margin: 1rem;
   }
 
-  #whiteFont {
-    color: white;
-  }
-
   /* https://codepen.io/YousifW/pen/LKBxZX */
   /* --------------Nike-------------------- */
   .pageCard3 {
@@ -332,10 +333,11 @@ body, html {
   padding-right: 2rem;
   height: 20rem;
   width: 20rem;
-  color: #282B2C;
+  /* color: #282B2C; */
   justify-content: left;
   align-items: left;
 }
+
 
 .pageCard6 {
   margin: auto;
