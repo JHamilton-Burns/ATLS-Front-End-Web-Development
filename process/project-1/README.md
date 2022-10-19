@@ -68,11 +68,11 @@ As per usual, my comfort zone is in the design. I live to make things aesthetica
 
 Used to the design world, I believe my technical approach could use some improvement. I believe in trial and error and find that a lot of my approach primarily consists of crossing my fingers, desinging what I know in html/css, and blending my understanding with technical solutions I find online. This works 50% of the time and leads to hours of wasted time when nothing is clicking. This very flawed system occasionally works in my favor, but I'd love to improve upon it and gain more confidence in my code. 
 
-Dut to my tight schedule, I struggled with the timeline for this project, but ultimately I think this benefited me. I believe I would have wasted hours and hours trying to figure out the original gallery I proposed. However, due to time constraints, I hit a point where I needed to accept reality and pivot my plan. I was lucky to find an alternative solution that I believe was a reasonable alternative. Overall, I think this was the right move and taught me a great lesson in time management. I left this project with many lessons: 1) Tennis information on the web is drastically outdated  2) I do not code well when I don't have a fundamental understanding of each trigger and fascet of the code  3) I improve by doing  4) I need to work on code cleanup
+Due to my tight schedule, I struggled with the timeline for this project, but ultimately I think this benefited me. I believe I would have wasted hours and hours trying to figure out the original gallery I proposed. However, due to time constraints, I hit a point where I needed to accept reality and pivot my plan. I was lucky to find an alternative solution that I believe was a reasonable alternative. Overall, I think this was the right move and taught me a great lesson in time management. I left this project with many lessons: 1) Tennis information on the web is drastically outdated  2) I do not code well when I don't have a fundamental understanding of each trigger and fascet of the code  3) I improve by doing  4) I need to work on code cleanup
 
 ![FO](https://user-images.githubusercontent.com/89480750/196795667-3d549231-adb9-4c51-a648-525ea446ff4c.png)
 
-![AO](https://user-images.githubusercontent.com/89480750/196795689-5762e6a5-a4c4-4808-bb21-c8b3ffd307ad.png)
+![AO](https://user-images.githubusercontent.com/89480750/196795987-7c9d5423-6243-4157-9795-2ef34441ade1.png)
 
 ![US](https://user-images.githubusercontent.com/89480750/196795709-99f7d7fd-fb2d-49e5-bb05-8242fa99c810.png)
 
