@@ -52,3 +52,28 @@ Here are a handful of screenshots displying the current state of the site:
 
 <img width="1792" alt="Screen Shot 2022-10-06 at 8 35 33 AM" src="https://user-images.githubusercontent.com/89480750/194342732-70f41ec2-61d8-4d78-9721-5d7b2df5278a.png">
 
+# Project 1 Critique Day
+## Milestone 3
+### PROJECT TAKEAWAYS: 
+
+I was quite nervous for critique day as I wasn't sure how complex projects were throughout the class. I felt proud that I was able to build a functioning site that turned out closer to the wireframe I createdthan I anticipated. However, I was also very bummed I wasn't able to get the "cartesian fisheye distortion galleries" to work as I had initially proposed. After facing time constraints, I opted to find a new way to display the Nike and Adidas fashion while still using Javascript to pan through the images. Although, it wasn't what I'd dreamt of, I believe it was still relatively effective. My biggest critique on the site was visibility of font on the Wimbledon page due to the dark background. I was grateful that this was an easy fix and I have since adjusted the font to white on the page to accomodate. Overall, I'm fairly pleased with the overall asthetic of the site. My own personal critique would be that I need to push myself harder to incorporate more JavaScript into future projects (primarily because it's daunting to me). In addition, I need to work on code organization. It is not a strength of mine and I believe it will hold me back in the coding field. 
+
+![screencapture-127-0-0-1-5500-code-class-portal-project-1-french-html-2022-10-19-13_44_32](https://user-images.githubusercontent.com/89480750/196790814-a0f830b6-d2fb-40ff-84b0-1c904893a778.png)
+
+# Project 1 Reflection
+## Milestone 4
+### REFLECTION: 
+
+As per usual, my comfort zone is in the design. I live to make things aesthetically approachable and I like to condense and simplify content for the easiest comprehension. I believe I achieved this in this project and left enough white space for the user to digest what they're learning. On the other hand, there is always room for improvement. If I had more time on my hands, I would love to generate more of a fashion timeline that better displays fashion trends over time. In addition, I would have loved to build out a comparison feature that would allow site visitors to discover their favorites. 
+
+Used to the design world, I believe my technical approach could use some improvement. I believe in trial and error and find that a lot of my approach primarily consists of crossing my fingers, desinging what I know in html/css, and blending my understanding with technical solutions I find online. This works 50% of the time and leads to hours of wasted time when nothing is clicking. This very flawed system occasionally works in my favor, but I'd love to improve upon it and gain more confidence in my code. 
+
+Dut to my tight schedule, I struggled with the timeline for this project, but ultimately I think this benefited me. I believe I would have wasted hours and hours trying to figure out the original gallery I proposed. However, due to time constraints, I hit a point where I needed to accept reality and pivot my plan. I was lucky to find an alternative solution that I believe was a reasonable alternative. Overall, I think this was the right move and taught me a great lesson in time management. I left this project with many lessons: 1) Tennis information on the web is drastically outdated  2) I do not code well when I don't have a fundamental understanding of each trigger and fascet of the code  3) I improve by doing  4) I need to work on code cleanup
+
+![FO](https://user-images.githubusercontent.com/89480750/196795667-3d549231-adb9-4c51-a648-525ea446ff4c.png)
+
+![AO](https://user-images.githubusercontent.com/89480750/196795689-5762e6a5-a4c4-4808-bb21-c8b3ffd307ad.png)
+
+![US](https://user-images.githubusercontent.com/89480750/196795709-99f7d7fd-fb2d-49e5-bb05-8242fa99c810.png)
+
+![W](https://user-images.githubusercontent.com/89480750/196795723-7143a4ce-1e18-4616-9b14-de5246fba3ce.png)
