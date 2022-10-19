@@ -2,6 +2,8 @@
 ## Table of Contents
 • [Process Milestone #1](#milestone-1)
 • [Process Milestone #2](#milestone-2)
+• [Process Milestone #3](#milestone-3)
+• [Process Milestone #4](#milestone-4)
 
 
 ## Milestone 1
