@@ -48,6 +48,6 @@ Jessie's class repository for ATLAS 5630 Front-end Web Development. ***NOTE FOR 
 
 • [Process Milestone #4](https://github.com/JHamilton-Burns/ATLS-Front-End-Web-Development/blob/main/process/project-1/README.md#milestone-4)
 
-• [Code](https://github.com/JHamilton-Burns/ATLS-Front-End-Web-Development/tree/main/code/Project%201)
+• [Code](https://github.com/JHamilton-Burns/ATLS-Front-End-Web-Development/tree/main/code/class-portal/project-1)
 
 • [Website](https://web-development-neon.vercel.app/project-1/index.html)
