@@ -1,6 +1,6 @@
 # ATLS-Front-End-Web-Development
 
-Jessie's class repository for ATLAS 5630 Front-end Web Development. ***NOTE FOR PETER: Officially ditching the wordpress blog site for github!
+Jessie's class repository for ATLAS 5630 Front-end Web Development. 
 
 ## Assignments & Links
 
