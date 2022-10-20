@@ -40,9 +40,9 @@ Jessie's class repository for ATLAS 5630 Front-end Web Development. ***NOTE FOR 
 
 ### Project 1
 
-• [Process Milestone #1]((https://github.com/JHamilton-Burns/ATLS-Front-End-Web-Development/blob/main/process/project-1/README.md#milestone-1)
+• [Process Milestone #1](https://github.com/JHamilton-Burns/ATLS-Front-End-Web-Development/blob/main/process/project-1/README.md#milestone-1)
 
-• [Process Milestone #2]((https://github.com/JHamilton-Burns/ATLS-Front-End-Web-Development/blob/main/process/project-1/README.md#milestone-2) 
+• [Process Milestone #2](https://github.com/JHamilton-Burns/ATLS-Front-End-Web-Development/blob/main/process/project-1/README.md#milestone-2) 
 
 • [Process Milestone #3](https://github.com/JHamilton-Burns/ATLS-Front-End-Web-Development/blob/main/process/project-1/README.md#milestone-3)
 
