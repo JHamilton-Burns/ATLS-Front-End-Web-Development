@@ -12,7 +12,7 @@ To begin, I consulted my favorite AGS site that has helped clarify so much for m
 
 ### STRETCH GOALS:
 
-My goal is to inform people about a topic they know little about in a shortened way. I’d like to do this using JS animations as well and d3.js for complex data visualization. I’m thinking to grab data on tick migration, I will begin my search with government organizations like the Forest Service, World Health Organization or the USDA.
+My goal is to inform people about a topic they know little about in a shortened way. I’d like to do this using JS animations as well and d3.js for complex data visualization. I’m thinking to grab data on tick migration, I will begin my search with government organizations like the Forest Service, World Health Organization or the USDA. Since this is a "pocket guide", I'd like to make this site responsive on cellphones to allow for easy access on the go. 
 
 ### WIREFRAME:
 
