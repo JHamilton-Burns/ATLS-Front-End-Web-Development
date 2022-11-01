@@ -1,28 +1,22 @@
-'use strict';
-
-var webpack = require('webpack');
-var path = require('path');
+const path = require('path');
 
 module.exports = {
-	entry: './src/game.js',
-	output: {
-		filename: 'build/game.js'
-	},
-	node: {
-		fs: 'empty'
-	},
-	module: {
-		loaders: [
-			{
-				test: /\.json$/,
-				include: path.join(__dirname, 'node_modules', 'pixi.js'),
-				loader: 'json',
-			},
-			{
-				test: /\.js$/,
-				exclude: path.join(__dirname, 'node_modules'),
-				loader: 'babel'
-			}
-		]
-	}
+  entry: './src/index.js',
+  output: {
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'dist'),
+  },
+
+module: {
+    rules: [
+        {
+            test: /\.css$/i,
+            use: ['style-loader', 'css-loader'],
+        },
+        {
+            test: /\.(png|svg|jpg|jpeg|gif)$/i,
+            type:'asset/resource',
+        },
+    ],
+},
 };

@@ -1,6 +1,7 @@
-// import _ from 'lodash';
+import _ from 'lodash';
+import './style.css';
+import Icon from './pear.png';
 
-// import * as PIXI from 'pixi.js';
 
 const app = new PIXI.Application({ width: 2000 , height: 1000});
 document.body.appendChild(app.view);
@@ -12,7 +13,7 @@ const totalPears = 30;
 
 for (let i = 0; i < totalPears; i++) {
     // create a new Sprite that uses the image name that we just generated as its source
-    const pear = PIXI.Sprite.from('Images/pear.png');
+    const pear = PIXI.Sprite.from(Icon);
 
     // set the anchor point so the texture is centered on the sprite
     pear.anchor.set(0.5);
