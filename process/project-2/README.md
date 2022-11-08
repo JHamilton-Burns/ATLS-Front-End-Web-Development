@@ -1,6 +1,7 @@
 # Project 1 Process
 ## Table of Contents
 • [Process Milestone #1](#milestone-1)
+• [Process Milestone #2](#milestone-2)
 
 ## Milestone 1
 ### PROJECT OVERVIEW: 
@@ -26,3 +27,20 @@ As I wireframed this project, I realized I needed to drill down to the basics. M
 ### JAVASCRIPT LIBRARY:
 
 Through this project, I’m looking forward to taking a second stab at d3.js. I think this is the perfect project to enhance with strong data visualization and my hope is to successfully generate interactive maps and charts. ex. https://observablehq.com/@mbostock/walmarts-growth
+
+
+## Milestone 2
+### INITIAL TAKEAWAYS: 
+
+As an initial start to building the site, I’ve gone ahead and started with the basics. I’ve built out the shell of the site where I’ve arranged the html and css pages. I currently have placeholder charts, graphs and maps to get the general idea of the flow of the guide. So far so good, but I have yet to begin the challenging part of the project where I introduce interactive data visualization through d3.js. 
+
+### DEVELOPMENT PROCESS:
+
+At present, my code is incredibly basic and incorporates the fonts, images, html and css pages. For some reason it seems easier for me to play around within each page prior to incorporating a module bundler. I intend to do this when I’m approaching the finalalization of the page. 
+
+To be honest, I am a bit concerned about approaching d3.js again. However, I’m always up for a challenge and believe I can begin with the more basic charts like the pie chart and bar graph. The biggest challenge I forsee is generating an interactive map showcasing the migration of lone star ticks. Luckily, it does appear that there are a decent amount of data souces on occurances of lone star ticks (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6314611/#pone.0209082.s001) and I find this encouraging for the next stages of this project. 
+
+Here is a screenshot of the current state of the site: 
+
+![screencapture-web-development-i0rgz8vna-jhamilton-burns-vercel-app-project-2-index-html-2022-11-08-07_18_32](https://user-images.githubusercontent.com/89480750/200592847-0a151332-a1d7-4c25-a5e9-5d2f3fe79b5e.png)
+
