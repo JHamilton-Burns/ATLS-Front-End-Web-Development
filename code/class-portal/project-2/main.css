@@ -1,0 +1,155 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    background-color: #D9CEB3;
+    /* min-height: 100vh; */
+  }
+
+header {
+    margin: 0;
+    padding-left: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+main {
+    margin: 0;
+    padding: 0rem;
+}
+
+h1 {
+    font-family: myFirstFont;
+    font-size: 75px;
+    color: #242423;
+}
+
+h2 {
+    font-family: myFirstFont;
+    font-size: 50px;
+    color: white;
+}
+
+h3 {
+    font-family: mySecondFont;
+    font-size: 35px;
+    color: #A22B29;
+}
+
+h4 {
+    font-family: myThirdFont;
+    font-size: 20px;
+    color: #242423;
+}
+
+p, li {
+    font-family: myThirdFont;
+    font-size: 25px;
+    color: white;
+    width: 80rem;
+}
+
+
+
+#half {
+    width: 60rem;
+}
+
+.boxes {
+    padding-top: 5rem;
+    margin: auto;
+    display: flex;
+    flex-flow: column wrap;
+    height: fit-content;
+    width: fit-content;
+    justify-content: center;
+    align-items: center
+}
+
+.redBox {
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    background-color:#A22B29;
+    height: 10rem;
+    width: 100rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+}
+
+.blackBox {
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    background-color:#242423;
+    height: 15rem;
+    width: 90rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3rem;
+}
+
+.dividedBox {
+    margin: auto;
+    display: flex;
+    flex-flow: row;
+    background-color:#242423;
+    height: 15rem;
+    width: 90rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3rem;
+}
+
+.imageHolder {
+    margin: auto;
+    display: flex;
+    flex-flow: row;
+    height: 15rem;
+    width: 90rem;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: #D2BF55;
+}
+
+.spaceBelow { 
+    padding: 2rem;
+  }
+
+.gap {
+    padding: 5rem;
+}
+
+ #boxText {
+    margin: auto;
+    display: flex;
+    flex-flow: row;
+    height: 15rem;
+    width: 60rem;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5rem;
+}
+
+#boxImage {
+    margin: auto;
+    display: flex;
+    flex-flow: row;
+    width: 15rem;
+    justify-content: left;
+    align-items: center;
+    padding-right: 5rem;
+}
+
+#tall {
+    height: 30rem;
+}
+
+#taller {
+    height: 100rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
