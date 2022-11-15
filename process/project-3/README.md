@@ -5,9 +5,7 @@ PROJECT OVERVIEW: Our team is looking to generate a virtual Marauder’s Map exp
 
 TEAM ROLES:
 
-Megan Dukek: Animations
-Jessie Hamilton-Burns: Visuals 
-Taylor Dupuy: 
+Megan Dukek: Animations | Jessie Hamilton-Burns: Visuals | Taylor Dupuy: React
 
 STRETCH GOALS: Our stretch goals are to have enhance the experience by having the map unfold when tapped with a wand (mouse that looks like a wand) and a textbox appears where the user must enter “I solemnly swear I am up to no good”. Perhaps we could also include sound effects to make the experience more enjoylable as well.
 
