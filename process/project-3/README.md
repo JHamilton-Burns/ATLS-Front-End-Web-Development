@@ -13,4 +13,4 @@ VISUALS: At this time, I haven’t created a wireframe for the site. However, I 
 
 ![367857](https://user-images.githubusercontent.com/89480750/201953413-d68690a5-7807-44ba-86bc-abfe15c01850.jpg)
 
-WEB DEVELOPMENT FRAMEWORK:To keep things streamlined, our team has decided to stick to React for the final project. I can’t speak for our team, but I am struggling a bit to fully grasp React and believe I would have a much harder time if I were to attempt teaching myself an entireley new framework by the end of the school year. I’m hoping over the next few classes, I will begin to feel more confident with React.
+WEB DEVELOPMENT FRAMEWORK: To keep things streamlined, our team has decided to stick to React for the final project. I can’t speak for our team, but I am struggling a bit to fully grasp React and believe I would have a much harder time if I were to attempt teaching myself an entireley new framework by the end of the school year. I’m hoping over the next few classes, I will begin to feel more confident with React.
