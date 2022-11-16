@@ -1,7 +1,8 @@
 function main() {
 	// d3 code goes here
     var width = "850", height="600"; 
-    var colors = d3.scaleOrdinal(d3.schemePaired)
+    // var colors = d3.scaleOrdinal(d3.schemePaired)
+    var colors = d3.scaleOrdinal(d3.schemeSpectral[8]);
     var svg = d3.select("#pie-chart").append("svg")
                 .attr("width", width).attr("height", height)
     var details = [{grade:"Alpha-gal", number:33, percent:"33%"},{grade:"Foods", number:28, percent:"28%"}, 
