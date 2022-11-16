@@ -4,26 +4,8 @@
     <meta charset="UTF-8" />
     <title>AGS Pocket Guide</title>
     <link rel="stylesheet" href="main.css" />
-    <style>
-        @font-face {
-        font-family: myFirstFont;
-        src: url(FrederickatheGreat-Regular.ttf);
-        }
-        @font-face {
-        font-family: mySecondFont;
-        src: url(Rajdhani-Bold.ttf);
-        }
-        @font-face {
-        font-family: myThirdFont;
-        src: url(Rajdhani-SemiBold.ttf);
-        }
-
-        * {
-        font-family: myFirstFont;
-        font-family: myFirstFont;
-        font-family: myThirdFont;
-        }
-    </style>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="JS/pie.js"></script> 
   </head>
   <body>
     <header>
@@ -57,11 +39,11 @@
             </div>
             <section class="spaceBelow"> </section> 
             <div id="boxImage">
-                <img src="lonestar.png" alt="Lonestar tick" style ="width:200px; height:200px;">
+                <img src="Images/lonestar.png" alt="Lonestar tick" style ="width:200px; height:200px;">
             </div>
         </div>
         <section class="spaceBelow"> </section> 
-        <img src="mapHold.png" alt="Placeholder Map" style ="width:1000px; height:700px;">
+        <div id="map"></div>
       </div>
 
       <section class="gap"> </section> 
@@ -72,7 +54,7 @@
         </div>
         <section class="spaceBelow"> </section>  
         <div class="imageHolder">
-            <img src="animals.png" alt="Cow, pig, sheep, and goat" style ="width:1000px; height: 170px;">
+            <img class=thumbnail src="Images/animals.png" alt="Cow, pig, sheep, and goat" style ="width:1000px; height: 170px;">
         </div>
         <section class="spaceBelow"> </section>  
         <div class="blackBox" id="tall">
@@ -118,12 +100,12 @@
         <section class="spaceBelow"> </section>  
         <div class="blackBox" id="taller">
             <p>AGS is already a common allergy in some regions of the world, including the U.S., where the number of diagnosed cases has risen from 12 in 2009 to over 34,000 in 2019</p>  
-            <div class="imageHolder">
-                <img src="barGraph.png" alt="A graph displaying the increase in AGS diagnosis" style ="width:400px; height: 200px;">
+            <div class= imageHolder id="bar-graph">
+                
             </div>
             <p>Roughly 60% of people with AGS have anaphylactic reactions and 30-40% have cardiac and respiratory symptoms.</p>
-            <div class="imageHolder">
-                <img src="pieChart.png" alt="A pie chart displaying the leading causes of anaphylaxis" style ="width:400px; height: 400px;">
+            <div class="imageHolder" id="pie-chart">
+                <script>main();</script>
             </div>
             <p>In one recent study of anaphylaxis, AGS was found to be the number one trigger, accounting for 33% of cases with a definitive cause. The number two cause was all other food allergies combined at 28%. </p>
             <p>AGS is the leading cause of adult-onset food allergy and anaphylaxis throughout the South and much of the eastern U.S.</p>
@@ -134,5 +116,9 @@
 
 
     </main>
+    <script type="text/javascript" src="JS/bar.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <script src="JS/visualization.js"></script>
   </body>
 </html>

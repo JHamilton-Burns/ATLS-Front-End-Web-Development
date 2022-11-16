@@ -1,7 +1,8 @@
 import Title from './title.js';
 
-const title = new Title('Jessie');
+const title = new Title('peter');
 
 document.body.innerHTML += title.render();
-
-// document.body.innerHTML += title('Not Jessie');
+/*
+document.body.innerHTML += title('Not Peter');
+*/

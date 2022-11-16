@@ -1,12 +1,32 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(FrederickatheGreat-Regular.ttf);
+    }
+    @font-face {
+    font-family: mySecondFont;
+    src: url(Rajdhani-Bold.ttf);
+    }
+    @font-face {
+    font-family: myThirdFont;
+    src: url(Rajdhani-SemiBold.ttf);
+    }
+
+    * {
+    font-family: myFirstFont;
+    font-family: myFirstFont;
+    font-family: myThirdFont;
+    }
+
 body, html {
     padding: 0;
     margin: 0;
     background-color: #D9CEB3;
-    /* min-height: 100vh; */
   }
 
 header {
     margin: 0;
+    display: flex;
+    flex-flow: column;
     padding-left: 5rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -14,6 +34,8 @@ header {
 
 main {
     margin: 0;
+    display: flex;
+    flex-flow: column;
     padding: 0rem;
 }
 
@@ -49,16 +71,17 @@ p, li {
 }
 
 
-
 #half {
     width: 60rem;
+    display: flex;
+    flex-flow: column;
 }
 
 .boxes {
     padding-top: 5rem;
     margin: auto;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     height: fit-content;
     width: fit-content;
     justify-content: center;
@@ -68,7 +91,7 @@ p, li {
 .redBox {
     margin: auto;
     display: flex;
-    flex-flow: column;
+    flex-flow: row wrap;
     background-color:#A22B29;
     height: 10rem;
     width: 100rem;
@@ -80,7 +103,7 @@ p, li {
 .blackBox {
     margin: auto;
     display: flex;
-    flex-flow: column;
+    flex-flow: column wrap;
     background-color:#242423;
     height: 15rem;
     width: 90rem;
@@ -126,7 +149,7 @@ a {
  #boxText {
     margin: auto;
     display: flex;
-    flex-flow: row;
+    flex-flow: column wrap;
     height: 15rem;
     width: 60rem;
     justify-content: center;
@@ -153,3 +176,29 @@ a {
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
+
+.inside {
+    font-size:15px;
+    font-weight:bold;
+    fill:white;
+}
+.label {
+    font-size:25px;
+    font-weight:bold;
+}
+
+.rect:hover {
+    opacity: 0.5;
+}
+
+.state {
+    fill: none;
+    stroke: #333;
+    stroke-width: 1.0;
+  }
+
+  .county {
+    fill: #D9CEB3;
+    stroke: #fff;
+    stroke-width: 0.5;
+  }
