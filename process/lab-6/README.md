@@ -5,7 +5,7 @@ MOCKUP:
 ![Group 15](https://user-images.githubusercontent.com/89480750/202324588-5cd9d368-f5af-41ec-94ea-f135d95bc318.png)
 
 
-##Step 1: COMPONENT HIERARCHY
+## Step 1: COMPONENT HIERARCHY
 
 Highlight and name the different components:
  1) FullProductTable [yellow]: contains the entire table
