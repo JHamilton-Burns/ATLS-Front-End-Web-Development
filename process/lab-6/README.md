@@ -1,4 +1,4 @@
-#Assignment 6 - Plan a React To-Do List
+# Assignment 6 - Plan a React To-Do List
 
 MOCKUP: 
 
