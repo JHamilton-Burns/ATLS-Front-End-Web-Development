@@ -2,6 +2,7 @@
 ## Table of Contents
 • [Process Milestone #1](#milestone-1)
 • [Process Milestone #2](#milestone-2)
+• [Process Milestone #4](#milestone-4)
 
 ## Milestone 1
 ### PROJECT OVERVIEW: 
@@ -44,3 +45,9 @@ Here is a screenshot of the current state of the site:
 
 ![screencapture-web-development-i0rgz8vna-jhamilton-burns-vercel-app-project-2-index-html-2022-11-08-07_18_32](https://user-images.githubusercontent.com/89480750/200592847-0a151332-a1d7-4c25-a5e9-5d2f3fe79b5e.png)
 
+## Milestone 4
+### REFLECTION:
+
+This project got me very excited for next semester. My plan is to use this concept as my inspiration to design an Alpha-Gal app to share stories, create community and education for everyone with the syndrome. Ideally this could be used for other food allergy or diseases as well. It can be very challenging dealing with the side effects when the vast majority of people with the sydrome live on the east coast, I'd love to create a platform for people to come together like a virtual support group instead of having to use a poorly managed/followed sub-reddit.
+
+Ultimately, I am pleased with the end result of this project. Learning how to incorporate d3.js was far more of a challenge than I anticipated. After spending days trying to incorporate charts and graphs, I unfortunately didn't have the time to add animations I had originally intended. I did find that maybe d3.js is better suited for more robust projects and for strong coders. It's capabilities are absolutely incredible, but it also needd a lot of data, time, and backhand knowledge to generate the enticing graphs shown as examples on their site.
